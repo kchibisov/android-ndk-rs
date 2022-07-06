@@ -1,5 +1,7 @@
 # Unreleased
 
+# 07.0 (2022-07-XX)
+
 - **Breaking:** Provide a `LockReadGuard` newtype around `NativeWindow`/`InputQueue` to hide the underlying lock implementation. (#288)
 - **Breaking:** Transpose `LockReadGuard<Option<T>>` into `Option<LockReadGuard<T>>` to only necessitate an `Option` unpack/`unwrap()` once. (#282)
 

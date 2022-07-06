@@ -1,5 +1,7 @@
 # Unreleased
 
+# 0.4.0 (2022-07-XX)
+
 - **Breaking:** Turn `enum` type aliases into newtype wrappers. (#245)
 
 # 0.3.0 (2022-01-05)
